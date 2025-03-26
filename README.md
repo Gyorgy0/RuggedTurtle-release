@@ -13,11 +13,14 @@
 - forward(number of pixels that need to be travelled by the turtle)
 #### Aliases: e(), elore(), f(), forward()
 
-- megfordul(szög megadása fokban, megadható radiánban is a "radian" szóval, konstansok is megadhatóak pl. PI) --oramutato/--!oramutato (az --oramutato/--!oramutato flag specifikálja,
-  hogy milyen irányban legyen számolva a szög, ha nincs ez a parancshoz hozzárendelve, akkor az óramutató járásának megfelelő irányban számolja a szöget a program)
-- rotate(angle in degrees, it can be supplied as radian wih the "radian" word, constants are supported e.g. PI) --clockwise/--!clockwise (these flags are used to scify which way are we measuring the angles)
-#### Aliases: m(), megf(), megfordul(), r(), rot(), rotate()
-#### Flags: --cw, --!cw, --clockwise, --!clockwise --om, --!om, --oramutato, --!oramutato, 
+- jobbra(szög megadása fokban, hogy mennyit forduljon el a karakter jobb oldalára 0-360)
+- right(angle in degrees, it specifies how much it needs to rotate to the characters right side 0-360)
+#### Aliases: j(), jobb(), jobbra(), r(), right()
+
+
+- balra(szög megadása fokban, hogy mennyit forduljon el a karakter bal oldalára 0-360)
+- left(angle in degrees, it specifies how much it needs to rotate to the characters left side 0-360)
+#### Aliases: b(), bal(), balra(), l(), left()
 
 ## Vezérlések - Execution controls:
 
