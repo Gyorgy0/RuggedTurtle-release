@@ -1,9 +1,9 @@
 # Témakörök, amelyeket a program megtanít a diákoknak:
 
-- szekvenciális vezérlés (egy parancsban több, egymás utáni parancsot tudunk definiálni szövegszerkesztőben magát a programkód szekvenciális futtatását teszi lehetővé)
-- szelekciós vezérlés (feltételek megadása, több feltétel megadása, szövegszerkesztőben if/else if/else elágazások)
+- szekvenciális vezérlés (több, egymás utáni parancsot tudunk definiálni szövegszerkesztőben magát a programkód szekvenciális futtatását teszi lehetővé)
+- szelekciós vezérlés (feltételek megadása, több feltétel megadása, szövegszerkesztőben if / else if / else elágazások)
 - eljárásvezérlés (függvény meghívása parancsorban, parancsok hozzáadása, szövegszerkesztőben függvények deklarálása, illetve ezek futtatása a main() függvénnyel)
-- ismétléses vezérlések (loop {}, while <feltétel> {}, for <iterációs változó> in <tartomány(elsődlegesen egész számok)>, goto/jump (ugrás a függvényen belül egy deklarált helyre))
+- ismétléses vezérlések (loop {}, while(feltétel) {}, for(tartomány(elsődlegesen egész számok)) {}
 
 # DOKUMENTÁCIÓ - DOCUMENTATION
 
