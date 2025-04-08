@@ -41,11 +41,11 @@
 - tollle - lerakja a tollat a vászonra, így a teknős újra nyomot hagy
 - pendown - the turtle puts down it's pen so it leaves it's path behind
 
-#### Aliases: tf, tollfel, pu, penup
+#### Aliases: tl, tollle, pd, pendown
 
 ## Vezérlések - Execution controls:
 
-- ha(boolean algebrai kifejezés - <, >, <=, >=, ==, !=, ! és aritmettikai kifejezések (+, -, *, /)) {parancsok}
+- ha(boolean algebrai kifejezés - <, >, <=, >=, ==, !=, ! és aritmetikai kifejezések (+, -, *, /)) {parancsok}
 - if(boolean algebraic expressions - <, >, <=, >=, ==, !=, ! and arithmetic expressions (+, -, *, /)) {commands}
 #### Aliases: if() {}, ha() {}
 
