@@ -41,7 +41,7 @@
 - tollle - lerakja a tollat a vászonra, így a teknős újra nyomot hagy
 - pendown - the turtle puts down it's pen so it leaves it's path behind
 
-#### Aliases: tf, tollfel, pu, penup
+#### Aliases: tl, tollle, pd, pendown
 
 ## Vezérlések - Execution controls:
 
