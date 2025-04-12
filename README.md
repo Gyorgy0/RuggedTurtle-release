@@ -45,14 +45,14 @@
 
 ## Vezérlések - Execution controls:
 
-- ha(boolean algebrai kifejezés - <, >, <=, >=, ==, !=, ! és aritmettikai kifejezések (+, -, *, /)) {parancsok}
-- if(boolean algebraic expressions - <, >, <=, >=, ==, !=, ! and arithmetic expressions (+, -, *, /)) {commands}
+- ha(boolean algebrai kifejezés - <, >, <=, >=, ==, !=, &&, ||, ! és aritmettikai kifejezések (+, -, *, /)) {parancsok}
+- if(boolean algebraic expressions - <, >, <=, >=, ==, !=, &&, ||, ! and arithmetic expressions (+, -, *, /)) {commands}
 #### Aliases: if() {}, ha() {}
 
-- ismetles(ettől, addig (exkluzív határ - megadott SZÁM ELŐTTI SZÁMIG megy) / =addig(inkluzív határ - megadott SZÁMIG megy)) {parancsok}
-- repeat(from, to (exclusive boundary - it goes until it hits the NUMBER BEFORE THE SPECIFIED number ) / =to(inclusive boundary - it goes until the SPECIFIED number)) {commands}
+- ismetles(változó, ettől, addig (exkluzív határ - megadott SZÁM ELŐTTI SZÁMIG megy)) {parancsok}
+- repeat(variable, from, to (exclusive boundary - it goes until it hits the NUMBER BEFORE THE SPECIFIED number )) {commands}
 #### Aliases: i() {}, ism() {}, ismetles() {}, r() {}, rep() {}, repeat() {}, for() {}
 
-- ismetles_eddig(feltétel - ha() - ameddig igaz értékű a feltétel, addig ismétlődik a ciklus) {parancsok}
-- repeat_until(statement / requirement - if() - the loop executes if the statement is true) {commands}
+- ismetles_eddig(feltétel - ameddig igaz értékű a feltétel, addig ismétlődik a ciklus) {parancsok}
+- repeat_until(condition - the loop executes if the statement is true) {commands}
 #### Aliases: i_e() {}, ism_e() {}, ismetles_eddig() {}, r_u() {}, rep_u() {}, repeat_until() {}, while() {}
