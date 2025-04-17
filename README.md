@@ -1,11 +1,36 @@
 # Témakörök, amelyeket a program megtanít a diákoknak:
 
 - szekvenciális vezérlés (több, egymás utáni parancsot tudunk definiálni szövegszerkesztőben magát a programkód szekvenciális futtatását teszi lehetővé)
-- szelekciós vezérlés (feltételek megadása, több feltétel megadása, szövegszerkesztőben if / else if / else elágazások)
-- eljárásvezérlés (függvény meghívása parancsorban, parancsok hozzáadása, szövegszerkesztőben függvények deklarálása, illetve ezek futtatása a main() függvénnyel)
-- ismétléses vezérlések (loop {}, while(feltétel) {}, for(tartomány(elsődlegesen egész számok)) {}
+- változók deklarálása, és alapvető aritmetikai műveletek támogatása
+- terminál alapvető parancsai (clear(), print(), eval())
+- ismétléses vezérlések (for(változó, tartomány(elsődlegesen egész számok)) {}
 
 # DOKUMENTÁCIÓ - DOCUMENTATION
+
+## Változók - Variables:
+-   <változó_neve> = változó értéke (megadható más változó is, plusz aritmetikai műveletek (+, -, *, /, :, %))
+-   <variable_name> = variable value (it can be an another variable, and it supports +, -, *, /, :, % )
+
+
+## Aritmetikai műveletek - arithmetic operations:
+- '+' - összeadás (összead két számot, vagy változót)
+-     - addition (it adds two numbers or variables together)
+
+- '-' - kivonás (kivon egy számot egy másik számból, vagy változót)
+-     - subtraction (it subtracts a number from another number or variable)
+
+- '*' - szorzás (összeszoroz egy számot egy másik számmal, vagy változót)
+-     - multiplication (it multiplies a number with another number or variable)
+
+- '/' - teljes osztás (eloszt egy számot egy másik számmal, vagy változóval, nem feltétlen egész szám az eredmény)
+-     - full division (it divides a number with another number or variable, it doesn't neccesarily produce an integer)
+
+- ':' - egész osztás (eloszt egy számot egy másik számmal, vagy változóval, egész szám az eredmény)
+-     - integer division (it divides a number with another number or variable, it produces an integer)
+
+- '%' - maradékos osztás (eloszt egy számot egy másik számmal, vagy változóval, ennek az osztásnak a maradékát adja vissza)
+-     - remainder division (it divides a number with another number or variable, it gives back the remainder)
+
 
 ## Parancsok - Commands:
 
@@ -43,16 +68,44 @@
 
 #### Aliases: tl, tollle, pd, pendown
 
-## Vezérlések - Execution controls:
 
-- ha(boolean algebrai kifejezés - <, >, <=, >=, ==, !=, &&, ||, ! és aritmettikai kifejezések (+, -, *, /)) {parancsok}
-- if(boolean algebraic expressions - <, >, <=, >=, ==, !=, &&, ||, ! and arithmetic expressions (+, -, *, /)) {commands}
-#### Aliases: if() {}, ha() {}
+- kiertekeles(<változó>) - egyszerűsíti és kiírja a megadott változó értékét
+- evaluate(<variable>) - simplifies and prints out the value of the specified variable
+
+
+#### Aliases: kier(), kiertekeles(), kiszamolas(), eval(), calc(), calculate(), evaluate()
+
+
+- kiiratas(<változó>) - kiírja a megadott változót
+- print(<variable>) - prints out the specified variable
+
+
+#### Aliases: ki(), kiir(), kiiratas(), print()
+
+
+- torol - kitörli a terminál kimenetét
+- clear - clears the terminal output
+
+
+#### Aliases: trl, torol, clr, clear
+
+
+- alaphelyzet - alaphelyzetbe rakja az alkalmazást
+- reset - resets the application
+
+
+#### Aliases: trl, torol, clr, clear
+
+
+- segitseg - kiírja a parancsokat és azok használatát
+- help - prints out the commands and their usage
+
+
+#### Aliases: ?, segitseg, help
+
+
+## Vezérlések - Execution controls:
 
 - ismetles(változó, ettől, addig (exkluzív határ - megadott SZÁM ELŐTTI SZÁMIG megy)) {parancsok}
 - repeat(variable, from, to (exclusive boundary - it goes until it hits the NUMBER BEFORE THE SPECIFIED number )) {commands}
 #### Aliases: i() {}, ism() {}, ismetles() {}, r() {}, rep() {}, repeat() {}, for() {}
-
-- ismetles_eddig(feltétel - ameddig igaz értékű a feltétel, addig ismétlődik a ciklus) {parancsok}
-- repeat_until(condition - the loop executes if the statement is true) {commands}
-#### Aliases: i_e() {}, ism_e() {}, ismetles_eddig() {}, r_u() {}, rep_u() {}, repeat_until() {}, while() {}
