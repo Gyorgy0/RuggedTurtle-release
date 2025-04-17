@@ -14,22 +14,22 @@
 
 ## Aritmetikai műveletek - arithmetic operations:
 - '+' - összeadás (összead két számot, vagy változót)
--     - addition (it adds two numbers or variables together)
+      - addition (it adds two numbers or variables together)
 
 - '-' - kivonás (kivon egy számot egy másik számból, vagy változót)
--     - subtraction (it subtracts a number from another number or variable)
+      - subtraction (it subtracts a number from another number or variable)
 
 - '*' - szorzás (összeszoroz egy számot egy másik számmal, vagy változót)
--     - multiplication (it multiplies a number with another number or variable)
+      - multiplication (it multiplies a number with another number or variable)
 
 - '/' - teljes osztás (eloszt egy számot egy másik számmal, vagy változóval, nem feltétlen egész szám az eredmény)
--     - full division (it divides a number with another number or variable, it doesn't neccesarily produce an integer)
+      - full division (it divides a number with another number or variable, it doesn't neccesarily produce an integer)
 
 - ':' - egész osztás (eloszt egy számot egy másik számmal, vagy változóval, egész szám az eredmény)
--     - integer division (it divides a number with another number or variable, it produces an integer)
+      - integer division (it divides a number with another number or variable, it produces an integer)
 
 - '%' - maradékos osztás (eloszt egy számot egy másik számmal, vagy változóval, ennek az osztásnak a maradékát adja vissza)
--     - remainder division (it divides a number with another number or variable, it gives back the remainder)
+      - remainder division (it divides a number with another number or variable, it gives back the remainder)
 
 
 ## Parancsok - Commands:
