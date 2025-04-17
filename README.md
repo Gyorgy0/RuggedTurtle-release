@@ -96,7 +96,7 @@ WASM demó (deployed WASM demo): https://gyorgy0.github.io/RuggedTurtle-release/
 - reset - resets the application
 
 
-#### Aliases: trl, torol, clr, clear
+#### Aliases: alaphelyzet, reset, default
 
 
 - segitseg - kiírja a parancsokat és azok használatát
