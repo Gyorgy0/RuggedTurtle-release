@@ -1,3 +1,5 @@
+WASM demó (deployed WASM demo): https://gyorgy0.github.io/RuggedTurtle-release/
+
 # Témakörök, amelyeket a program megtanít a diákoknak:
 
 - szekvenciális vezérlés (több, egymás utáni parancsot tudunk definiálni szövegszerkesztőben magát a programkód szekvenciális futtatását teszi lehetővé)
