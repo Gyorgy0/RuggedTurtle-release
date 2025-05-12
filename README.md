@@ -41,12 +41,12 @@ WASM demó (deployed WASM demo): https://gyorgy0.github.io/RuggedTurtle-release/
 #### Aliases: e(), elore(), f(), forward()
 
 - jobbra(szög megadása fokban, hogy mennyit forduljon el a karakter jobb oldalára 0-360)
-- right(angle in degrees, it specifies how much it needs to rotate to the characters right side 0-360)
+- right(angle in degrees, it specifies how much it needs to rotate to the character's right side 0-360)
 #### Aliases: j(), jobb(), jobbra(), r(), right()
 
 
 - balra(szög megadása fokban, hogy mennyit forduljon el a karakter bal oldalára 0-360)
-- left(angle in degrees, it specifies how much it needs to rotate to the characters left side 0-360)
+- left(angle in degrees, it specifies how much it needs to rotate to the character's left side 0-360)
 #### Aliases: b(), bal(), balra(), l(), left()
 
 
