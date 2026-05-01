@@ -1,10 +1,4 @@
-<<<<<<< HEAD
 # RuggedTurtle
-=======
-WASM demó (deployed WASM demo): https://gyorgy0.github.io/RuggedTurtle-release/
-
-# Témakörök, amelyeket a program megtanít a diákoknak:
->>>>>>> 462816acce6f3566745ebb94c4e6a1ac9731b400
 
 This is my first interpreter written in Rust. The program let's you control a turtle with specific commands. The program primarily is for teaching programming,
 by visualizing instruction graphically.
@@ -45,7 +39,6 @@ You can declare numbers as a variable or you can refer to a previously declared 
 
 - ```forward(number of pixels that needs to be travelled by the turtle)``` <br>**Aliases: e(), elore(), f(), forward()**
 
-<<<<<<< HEAD
 - ```right(angle in degrees, it specifies how much it needs to rotate to the character's right side 0-360)``` <br>**Aliases: j(), jobb(), jobbra(), r(), right()**
 
 - ```left(angle in degrees, it specifies how much it needs to rotate to the character's left side 0-360)``` <br>**Aliases: b(), bal(), balra(), l(), left()**
@@ -76,16 +69,6 @@ You can declare numbers as a variable or you can refer to a previously declared 
 
 
 https://github.com/user-attachments/assets/60537ea4-ade5-4772-9d83-4bc40853d0bc
-=======
-- jobbra(szög megadása fokban, hogy mennyit forduljon el a karakter jobb oldalára 0-360)
-- right(angle in degrees, it specifies how much it needs to rotate to the character's right side 0-360)
-#### Aliases: j(), jobb(), jobbra(), r(), right()
-
-
-- balra(szög megadása fokban, hogy mennyit forduljon el a karakter bal oldalára 0-360)
-- left(angle in degrees, it specifies how much it needs to rotate to the character's left side 0-360)
-#### Aliases: b(), bal(), balra(), l(), left()
->>>>>>> 462816acce6f3566745ebb94c4e6a1ac9731b400
 
 
 # Graphics
@@ -118,58 +101,4 @@ for(i, 0, 200) {forward(100); right(59+i); forward(100)}
   ![Arithmetics output](https://github.com/user-attachments/assets/493d97c1-ab1b-4711-a930-576463085e9a)
 
 
-<<<<<<< HEAD
 </div>
-=======
-- tollfel - felveszi a tollat a vászonról, így a teknős nem hagy maga után nyomot
-- penup - the turtle lifts up it's pen from the canvas so it doesn't paints it's path on the canvas
-#### Aliases: tf, tollfel, pu, penup
-
-
-- tollle - lerakja a tollat a vászonra, így a teknős újra nyomot hagy
-- pendown - the turtle puts down it's pen so it leaves it's path behind
-
-#### Aliases: tl, tollle, pd, pendown
-
-
-- kiertekeles(<változó>) - egyszerűsíti és kiírja a megadott változó értékét
-- evaluate(<variable>) - simplifies and prints out the value of the specified variable
-
-
-#### Aliases: kier(), kiertekeles(), kiszamolas(), eval(), calc(), calculate(), evaluate()
-
-
-- kiiratas(<változó>) - kiírja a megadott változót
-- print(<variable>) - prints out the specified variable
-
-
-#### Aliases: ki(), kiir(), kiiratas(), print()
-
-
-- torol - kitörli a terminál kimenetét
-- clear - clears the terminal output
-
-
-#### Aliases: trl, torol, clr, clear
-
-
-- alaphelyzet - alaphelyzetbe rakja az alkalmazást
-- reset - resets the application
-
-
-#### Aliases: alaphelyzet, reset, default
-
-
-- segitseg - kiírja a parancsokat és azok használatát
-- help - prints out the commands and their usage
-
-
-#### Aliases: ?, segitseg, help
-
-
-## Vezérlések - Execution controls:
-
-- ismetles(változó, ettől, addig (exkluzív határ - megadott SZÁM ELŐTTI SZÁMIG megy)) {parancsok}
-- repeat(variable, from, to (exclusive boundary - it goes until it hits the NUMBER BEFORE THE SPECIFIED number )) {commands}
-#### Aliases: i() {}, ism() {}, ismetles() {}, r() {}, rep() {}, repeat() {}, for() {}
->>>>>>> 462816acce6f3566745ebb94c4e6a1ac9731b400
